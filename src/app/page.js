@@ -18,7 +18,7 @@ export default function Home() {
       
       <titulo>Popular entre meninos</titulo>
       <section className="flex flex-wrap gap-2 p-4">
-      <Card titulo = "PlayStation 5" nota="10"/>
+      <Card titulo = "PlayStation 5" nota="10" imagem="//src//image/ps5.webp"/>
       <Card titulo = "Bicicleta" nota="8,5"/>
       </section>
       <titulo>Popular entre meninas</titulo>
