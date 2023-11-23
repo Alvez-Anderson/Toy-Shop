@@ -1,3 +1,4 @@
+"use client"
 import Image from 'next/image'
 import Card from '@/components/card'
 import Titulo from '@/components/titulo'
@@ -18,8 +19,8 @@ export default function Home() {
       
       <titulo>Popular entre meninos</titulo>
       <section className="flex flex-wrap gap-2 p-4">
-      <Card titulo = "PlayStation 5" nota="10" imagem="//src//image/ps5.webp"/>
-      <Card titulo = "Bicicleta" nota="8,5"/>
+      <Card titulo = "PlayStation 5" nota="8,5" poster="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAFwAXAMBIgACEQEDEQH/xAAbAAEAAwEBAQEAAAAAAAAAAAAABgcIBAUDAf/EAD0QAAEDAwIDAwYKCwAAAAAAAAEAAgMEBREGIRITMQdBYSJRgZGxwQgUFSMkUnFzkqMzQkNVYnKDlKHC0f/EABYBAQEBAAAAAAAAAAAAAAAAAAABAv/EABkRAQEAAwEAAAAAAAAAAAAAAAABAhExEv/aAAwDAQACEQMRAD8AvFERB8JaqCAv58jImsZxuc9wADfPkrm+XLR+9aH+5Z/1QntbrpLfV6feZXMpJ6l0NSAdnt4cgHwz7FG/lSweZi1MdxNrgjuFLNJAynnjm5wc5hjcHAhuxOR47LqVU9lVZ8f1nqHkSF1DSwQNgZ3M4xl2PtLSrWUs0oiIoCIiAiIgIiIKv+EBCX6Wt87R+huDC4+YFjh7SFRnMd5z61oXtvi49AVT8Z5c0Lvs+cas65K3jxF0/B5p/ot+qyN5J4o8/wArc/7K31WPYBBy9JVkx/b18jh9ga1vuKs5ZvVERFAREQEREBERBEe1eLnaCuzMZxC5/wCFpcPYsyrVGvIPjOk7nAc/OU0rNvGNwWVmnLQfOFrEaL7FIuVoOhJGDK+aT81w9ynyh/ZbFyNEWJn1qRrvxZd71MFKCIigIiICIiAiIg83UDOZbnR/XPD6wQsiwnFOw/wg/wCFr29HFKz7wLI1dEKd1TC3pE57B6CR7lvHiNN6FnhZZLbbo3EzUVDStlBaQBxRNI379lLVDdMMENzukY25baRvqgYpkpVERFkEREBERARF+OcGtLnEBoGST3IPOvpxSs+8HsKylqFnDd7tG0dKuoaB/UctM1N+tV5aY7TXwVZgd84YX8QbnON+h6FZ0vEedaV8WNjd5WeuchbnEaHtLeHUOoAOglpx+S1SoKOW6J7b7fXuY4Nknh4SRs7ELOikTHNe0OYQ5pGxByCpVcl0mmhp/o0sUUpIw6WMvaPQHN9q54LlI5mHhjntwC5owHbDcDJwPDJXJqSugo4Z56t4ZBTxl8jj3NAyVTFfPr25VUlxo6C+UzKgNdHHAyQNaz9UbdevXvySrJEXlUXKUM4Ywxr35DXOGQ3brjIz3bZC6LXPNNTfSZIpJgfKdHGYx4eSXOx61QtDPry2VUdyrKC91MdMCZWVEb3NMe3EN+mw692AfOrl0zXxVrY54Hh8U8Yex/1gRkFSyCQoiLKi8vVFLV12nrhR24RmpngdGwSO4W77HfB7sr1EQUdpbTur9LXaWWXTk9TSTN4JPi9RCSMHIc0F+/eMHHVRq4ad1JJquouLdL14p33F1SAeHj4TJx9AcZx4+laWRX1REIdTVlRNim0pfXHPWQU8Y9ZlXy7MrDdrBRV8FzjZFDNPzoIuaHuaSPKzjYdB0PXKmiJsRfVlgqr1UUcDOA0D6mN9a1zsF0bPK4cd/EWtB8MqUDpuiKD8PTplRfSOn6qy1NXDJy20LJ5HUQDskRvPEGkd3CXOA8AFKUQEREH/2Q=="/>
+      <Card titulo = "Bicicleta" nota="8,5" poster="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQSMRCjC6XQcMmorkviE1yala2uhBRhd-z0PFNZBNDCjEXEzIrbFYVekRWD-kCI-AgUzS9D_vd_BzYzY7b_w0QuOmHurHfqfxoJRDHP57foYnMRdMivNL2_ojSLxqHRHvlx21Oljg_x1w&usqp=CAc"/>
       </section>
       <titulo>Popular entre meninas</titulo>
       <titulo>Para bebês</titulo>

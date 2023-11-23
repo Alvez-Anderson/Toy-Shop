@@ -1,0 +1,7 @@
+{
+    "brinquedos": [
+      { "id": 1, "nome": "json-server", "fabricante": "typicode", "preco": 10, "imagem": "http...." },
+      { "id": 2, "nome": "json-server", "fabricante": "typicode", "preco": 10, "imagem": "http...." },
+      { "id": 3, "nome": "json-server", "fabricante": "typicode", "preco": 10, "imagem": "http...." }
+    ]
+ }
