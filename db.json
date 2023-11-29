@@ -1,7 +1,19 @@
 {
-    "brinquedos": [
-      { "id": 1, "nome": "json-server", "fabricante": "typicode", "preco": 10, "imagem": "http...." },
-      { "id": 2, "nome": "json-server", "fabricante": "typicode", "preco": 10, "imagem": "http...." },
-      { "id": 3, "nome": "json-server", "fabricante": "typicode", "preco": 10, "imagem": "http...." }
+    "brinquedos_meninos": [
+      { "id": 1, "nome": "PlayStation 5", "preco": 4000.00, "imagem": "https://rihappy.vtexassets.com/arquivos/ids/5939292-300-300/image-0bb667542de24fbe8d0e0ac26f457ad8.jpg?v=638328260993700000" },
+      { "id": 2, "nome": "Bicicleta", "preco": 999.90, "imagem": "https://rihappy.vtexassets.com/arquivos/ids/5402849-300-300/Bicicleta---Aro-16---Nathor---Spider-man---Vermelho-0.jpg?v=638101610318930000" },
+      { "id": 3, "nome": "Boneco HULK", "preco": 80.00, "imagem": "https://rihappy.vtexassets.com/arquivos/ids/411206-300-300/figura-articulada-30-cm-titan-heroes-disney-marvel-avengers-hulk-blast-gear-hasbro-E7475_Frente.jpg?v=637166780108100000" },
+      { "id": 4, "nome": "Pista Hot Wheels", "preco": 345.99, "imagem": "https://rihappy.vtexassets.com/arquivos/ids/2594970-300-300/Pista-de-Percurso-e-Mini-Veiculo---Hot-Wheels---Corrida-Multiloop---Mattel-0.jpg?v=637820149734330000" },
+      { "id": 5, "nome": "Controle PlayStation 5", "preco": 388.00, "imagem": "https://rihappy.vtexassets.com/arquivos/ids/4876515-300-300/image-10cf27c1762c4fb79801104cafe85e5d.jpg?v=638012904164330000" }
+
+    ],
+   
+    "brinquedos_meninas": [
+      { "id": 1, "nome": "Casa da Barbie", "preco": 2000.00, "imagem": "https://rihappy.vtexassets.com/arquivos/ids/5854286-300-300/Playset---Barbie---Casa-De-Bonecas-Dos-Sonhos---Mattel-0.jpg?v=638284112913200000" },
+      { "id": 2, "nome": "Patins", "preco": 289.90, "imagem": "https://rihappy.vtexassets.com/arquivos/ids/5263689-300-300/Patins---Barbie---Dreamtopia---Tamanho-29-a-32---Fun---Rosa-0.jpg?v=638071465948200000" },
+      { "id": 3, "nome": "Boneca Ariel", "preco": 160.00, "imagem": "https://rihappy.vtexassets.com/arquivos/ids/5692738-300-300/Boneca-Fashion---Disney---A-Pequena-Sereia---Ariel---Coral---Mattel-0.jpg?v=638176171413070000" },
+      { "id": 4, "nome": "Conjunto de Artes", "preco": 89.90, "imagem": "rihappy.vtexassets.com/arquivos/ids/377493-300-300/fun-barbie-kit-de-pintura-8420-6_Frente.jpg?v=636901094940270000" },
+      { "id": 5, "nome": "Boneca Minnie", "preco": 78.90, "imagem": "rihappy.vtexassets.com/arquivos/ids/370620-300-300/minnie-fala-rosa-ellka.jpg?v=636826598153170000" }
+
     ]
  }

@@ -23,7 +23,6 @@ export default function Home() {
       <Card titulo = "Bicicleta" nota="8,5" poster="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQSMRCjC6XQcMmorkviE1yala2uhBRhd-z0PFNZBNDCjEXEzIrbFYVekRWD-kCI-AgUzS9D_vd_BzYzY7b_w0QuOmHurHfqfxoJRDHP57foYnMRdMivNL2_ojSLxqHRHvlx21Oljg_x1w&usqp=CAc"/>
       </section>
       <titulo>Popular entre meninas</titulo>
-      <titulo>Para bebês</titulo>
 
 
     </main>

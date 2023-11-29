@@ -4,6 +4,7 @@ import FavoriteIcon from '@mui/icons-material/Favorite';
 import {useState} from 'react';
 
 export default function Card({titulo, nota, poster}) {
+
     const [favorito, setFavorito] = useState(false)
 
     function favoritar(){
